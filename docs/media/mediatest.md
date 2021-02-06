@@ -106,11 +106,11 @@ https://mbardin.github.io/PDM-resources/media/sprite_images/Slime/slime-attack-4
 
 <img src="sprite_images/background/back1.png"/>
 <div> </div>
-https://mbardin.github.io/PDM-resources/media/sprite_images/background/back1.png
+https://mbardin.github.io/PDM-resources/media/sprite_images/background/back1.jpg
 <div> </div>
 <img src="sprite_images/background/back5.png"/>
 <div> </div>
-https://mbardin.github.io/PDM-resources/media/sprite_images/background/back5.png
+https://mbardin.github.io/PDM-resources/media/sprite_images/background/back5.jpg
 <div> </div>
 <img src="sprite_images/background/Background1.png"/>
 <div> </div>
