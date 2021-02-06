@@ -156,22 +156,27 @@ Build the url to link to the images as shown in the video below:
 
 beep
 <div> </div>
-<audio controls src="sound_samples/short_effects/beep4.wav"</audio>
+<audio controls src="sound_samples/short_effects/beep4.wav"></audio>
 <div> </div>
 
 click
 <div> </div>
-<audio controls src="sound_samples/short_effects/camer-click-nikon.wav"</audio>
+<audio controls src="sound_samples/short_effects/camer-click-nikon.wav"></audio>
 <div> </div>
 
 lazer
 <div> </div>
-<audio controls src="sound_samples/short_effects/lazercannon.ogg"</audio>
+<audio controls src="sound_samples/short_effects/lazercannon.ogg"></audio>
 <div> </div>
 
 brush
 <div> </div>
-<audio controls src="sound_samples/short_effects/paint-brush-07.wav"</audio>
+<audio controls src="sound_samples/short_effects/paint-brush-07.wav"></audio>
+<div> </div>
+
+bees
+<div> </div>
+<audio controls src="sound_samples/short_effects/Bee.mp3"></audio>
 <div> </div>
 
 ---
