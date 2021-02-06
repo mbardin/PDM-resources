@@ -122,12 +122,56 @@ https://mbardin.github.io/PDM-resources/media/sprite_images/background/Backgroun
 <div> </div>
 
 
-potential more to come. Explore the github repo for additional sprites. in the docs/media folder. https://github.com/mbardin/PDM-resources
+### Bug-Squish Project Sprites
+
+<img src="sprite_images/bug_squish/bugsprite_1.png"/>
+<div> </div>
+https://mbardin.github.io/PDM-resources/media/sprite_images/bug_squish/bugsprite_1.png
+<div> </div>
+<img src="sprite_images/bug_squish/bugsprite_2.png"/>
+<div> </div>
+https://mbardin.github.io/PDM-resources/media/sprite_images/bug_squish/bugsprite_2.png
+<div> </div>
+<img src="sprite_images/bug_squish/bugsprite_3.png"/>
+<div> </div>
+https://mbardin.github.io/PDM-resources/media/sprite_images/bug_squish/bugsprite_3.png
+<div> </div>
+<img src="sprite_images/bug_squish/bugsprite_4.png"/>
+<div> </div>
+https://mbardin.github.io/PDM-resources/media/sprite_images/bug_squish/bugsprite_4.png
+<div> </div>
+<img src="sprite_images/bug_squish/background.jpg"/>
+<div> </div>
+https://mbardin.github.io/PDM-resources/media/sprite_images/bug_squish/background.jpg.png
+<div> </div>
+
+
+Potentially more to come. Explore the github repo for additional sprites. All are located in the in the docs/media folder. https://github.com/mbardin/PDM-resources
+
+Build the url to link to the images as shown in the video below:
 
 ---
 
 ## Audio Samples:
 
-Coming Soon!!
+beep
+<div> </div>
+<audio controls src="sound_samples/short_effects/beep4.wav"</audio>
+<div> </div>
+
+click
+<div> </div>
+<audio controls src="sound_samples/short_effects/camer-click-nikon.wav"</audio>
+<div> </div>
+
+lazer
+<div> </div>
+<audio controls src="sound_samples/short_effects/lazercannon.ogg"</audio>
+<div> </div>
+
+brush
+<div> </div>
+<audio controls src="sound_samples/short_effects/paint-brush-07.wav"</audio>
+<div> </div>
 
 ---
