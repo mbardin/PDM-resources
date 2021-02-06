@@ -104,11 +104,11 @@ https://mbardin.github.io/PDM-resources/media/sprite_images/Slime/slime-attack-4
 
 ### Backgrounds
 
-<img src="sprite_images/background/back1.png"/>
+<img src="sprite_images/background/back2.jpg"/>
 <div> </div>
 https://mbardin.github.io/PDM-resources/media/sprite_images/background/back1.jpg
 <div> </div>
-<img src="sprite_images/background/back5.png"/>
+<img src="sprite_images/background/back5.jpg"/>
 <div> </div>
 https://mbardin.github.io/PDM-resources/media/sprite_images/background/back5.jpg
 <div> </div>
@@ -121,6 +121,8 @@ https://mbardin.github.io/PDM-resources/media/sprite_images/background/Backgroun
 https://mbardin.github.io/PDM-resources/media/sprite_images/background/Background2.gif
 <div> </div>
 
+
+potential more to come. Explore the github repo for additional sprites. in the docs/media folder. https://github.com/mbardin/PDM-resources
 ---
 
 ## Audio Samples:
