@@ -31,3 +31,11 @@ For example, a strange reversed sound would have the url: https://mbardin.github
 ### Sample files
 
 You can find a sample selection of the files here: https://mbardin.github.io/PDM-resources/media/mediatest
+
+---
+
+## Using this repo with p5js & p5.play
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5SJTPAeRCbw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---

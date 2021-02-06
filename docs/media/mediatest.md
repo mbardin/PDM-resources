@@ -161,7 +161,7 @@ beep
 
 click
 <div> </div>
-<audio controls src="sound_samples/short_effects/camer-click-nikon.wav"></audio>
+<audio controls src="sound_samples/short_effects/camera-click-nikon.wav"></audio>
 <div> </div>
 
 lazer
@@ -180,3 +180,7 @@ bees
 <div> </div>
 
 ---
+
+## Linking these resources to a p5 sketch for the PDM course:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5SJTPAeRCbw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
