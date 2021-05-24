@@ -1,0 +1,357 @@
+body {
+  background-color: rgb(255, 223, 186);
+  font-family: system-ui, fantasy, monospace, sans-serif;
+  animation: fadebackground 600s infinite;
+}
+@keyframes fadebackground {
+  from {background-color: rgb(255, 223, 186);}
+  to {background-color: #6c7fa9;}
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  text-align: center;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 95%; /* Could be more or less, depending on screen size
+  */
+  text-align: center;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Modal Header */
+.modal-header {
+  padding: 2px 16px;
+  background-color: #81e081;
+  color: white;
+  text-align: center;
+}
+
+/* Modal Body */
+.modal-body {
+  padding: 2px 16px;
+  text-align: center;
+}
+
+/* Modal Footer */
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #81e081;
+  color: white;
+  text-align: center;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  text-align: center;
+}
+
+.modal-toggle {
+  /* make this appear on the bottom right of the screen  */
+  position:absolute;
+  bottom: 10px;
+  left: 1%
+}
+
+
+
+.btn-group button { 
+/*  better positioning? bottom right?  */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  margin-left: 10px;
+  bottom: 10px;
+}
+
+.mode-selector {
+  /*center the three toggle switches */
+  /*   margin: 0;
+  position: abolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+#textField {
+  font-size: 1em;
+  display = "none";
+  width: 300px;
+}
+
+.textField {
+  font-size: 1em;
+  display = "none";
+  width: 300px;
+}
+
+#letters {
+  width: 100%;
+  height: 100%;
+}
+
+.letters {
+  font-size: 3em;
+  color: #957dad;
+  display: block;
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transition: left 0.25s ease-in-out, top 0.7s linear;
+}
+/*  customize the letter movement. start as a word then split off?*/
+
+#myCanvas {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+/* for fading out things like the userinterface */
+.fade-out {
+  animation: fadeOut ease 25s;
+  -webkit-animation: fadeOut ease 25s;
+  -moz-animation: fadeOut ease 25s;
+  -o-animation: fadeOut ease 25s;
+  -ms-animation: fadeOut ease 25s;
+}
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-ms-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;}
+}
+
+/*  for fading in things like the user interface  */
+  .fade-in-image {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+  
+  
+.viewModeText {
+  display: none;
+}
+
+.square {
+/*   display: none; */
+  position: absolute;
+  top:50px;
+  right: 30px;
+  height: 50px;
+  width: 50px;
+  margin-top: 25px;
+  background-color: rgb(255, 179, 186);
+ 
+}
+
+.circle {
+/*   display: none; */
+  position: absolute;
+  right: 30px;
+  top:150px;
+  height: 50px;
+  width: 50px;
+  margin-top: 25px;
+  background-color: rgb(186, 225, 255);
+  border-radius: 50%;
+ 
+}
+
+.parallelogram {
+/*   display: none; */
+  position: absolute;
+  margin-top: 25px;
+  right: 30px;
+  top:250px;
+  width: 50px;
+  height: 50px;
+  transform: skew(20deg);
+  background: #b7b5fe;
+ 
+}
+
+.triangle-up {
+/*   display: none; */
+  position: absolute;
+  right: 30px;
+  top:350px;
+  margin-top: 25px;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid #ff6961;
+ 
+}
+.line {
+/*   display: none; */
+  position: absolute;
+  right: 40px;
+  top:450px;
+  border-left: 6px solid #c36f31;
+  height: 50px;
+  transform: skew(-35deg);
+  margin-top: 25px;
+  margin-bottom: 25px;
+ 
+}
+
+.menuline {
+/*   display: none; */
+  position: absolute;
+  right: 100px;
+  border-left: 6px solid gray;
+  height: 500px;
+  opacity: 1;
+  
+}
+
+#timer {
+  display: none;
+}
+
+#placeTools {
+  opacity: 1;
+  transition: opacity 2.5s;
+}
+
+#placeTools.hidden {
+  opacity: 0;
+}

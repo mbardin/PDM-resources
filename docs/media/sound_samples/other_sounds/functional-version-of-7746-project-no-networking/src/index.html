@@ -1,0 +1,64 @@
+<!-- tile on the main screen -->
+<h2>The Circle of Life (working title)</h2>
+<h3 class="viewModeText" id="viewModeText">You are viewing something</h3>
+
+<!--  canvas to draw the shapes  -->
+<!--   <canvas id="myCanvas" width="screen.width" height="screen.height"></canvas> -->
+
+<!-- Trigger/Open The Modal -->
+
+<div class="btn-group">
+  <button id="myBtn">Click Here to start!</button>
+  <button id="mute">MUTE</button>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>The Circle of Life Instructions</h2>
+    </div>
+    <div class="modal-body">
+      <p>Choose your mode below.</p>
+      <p>Place: Lets you add new shapes and text to the environment.</p>
+      <p>Edit: Lets you alter shapes and text in the environment.</p>
+      <p>View: Lets you observe what other users are doing in the environment.</p>
+      <label for="checkPlace">Place Mode</label>
+      <input type="checkbox" id="checkPlace" class="mode-selector" onclick="setPlace()">
+      <label for="checkEdit">Edit Mode</label>
+      <input type="checkbox" id="checkEdit" class="mode-selector" onclick="setEdit()">
+      <label for="checkView">View Mode</label>
+      <input type="checkbox" id="checkView" class="mode-selector" onclick="setView()">
+
+      <p id="placeText" style="display:none">You have Set the User Mode to "PLACE"</p>
+      <p id="editText" style="display:none">You have Set the User Mode to "EDIT"</p>
+      <p id="viewText" style="display:none">You have Set the User Mode to "VIEW"</p>
+
+      <p>You can change your user mode at any time</p>
+    </div>
+    <div class="modal-footer">
+      <h3>How will your interactions affect the environment?</h3>
+    </div>
+  </div>
+
+</div>
+
+<input id='textField' class="textField" class="fade-in-image" name="text" value="Type here. Press Enter to Send">
+
+<div id='letters' class="fade-out"></div>
+
+<!-- shapes. look into saving as a seperate js file fix later  -->
+<div id="placeTools" class="hidden">
+  <div class="square" id="mySquare"></div>
+  <div class="circle" id="myCircle"></div>
+  <div class="parallelogram" id="myParallel"></div>
+  <div class="triangle-up" id="myTri"></div>
+  <div class="line" id="myLine"></div>
+  <div class="menuline" id="menuLine"></div>
+
+</div>
+
+<div><span id="timer"></span></div>
